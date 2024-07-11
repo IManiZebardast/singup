@@ -1,0 +1,70 @@
+:root {
+    --MyBgColor: rgb(29, 182, 29);
+    --MyTextColor: #fff;
+    --Mywidth: 25%;
+   --Myheight: 25px;
+    --Mypadding: 5px;
+   --Myborder-radius: 15px;
+    --Myborder: 1px ;
+    --Mymargin: 10px 200px 10px 10px;
+  }
+  .nav-item{
+    color: #32d30a;
+  }
+  body{
+    background-image: url(/images/MyBackGround.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.user-div {
+  margin-left: 40px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  
+   
+}
+.user-div input {
+  margin-left: 40px;
+    padding-left: 2.5rem;
+    border-radius: var(--Myborder-radius);
+    border: none;
+    
+   
+}
+
+.user-div i {
+  margin-left: 40px;
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#form{
+    margin-left: 40px;
+    margin-right: auto;
+    display: inline-block;
+    border-radius: var(--Myborder-radius);
+    opacity: 0.8;
+    margin:  auto;
+  text-align: left;
+}
+
+.centered-form {
+  text-align: center;
+}
+p{
+  color: white;
+  opacity: 0.9;
+  display: inline-block;
+}
+#submitbtn{
+ margin-left: 110px
+}
+#loginbtn{
+  margin-left: 130px;
+}
+/* Adjust icon size */
+i {
+  font-size: 1.2rem; }
